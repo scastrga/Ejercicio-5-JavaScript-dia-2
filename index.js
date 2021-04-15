@@ -8,10 +8,10 @@ var impares = [];
 
 for(let i= 0;i<arrayNum.length;i++){
     if(i % 2 ==0){
-        impares.push(array[i]);
+        impares.push(arrayNum[i]);
     }
     else{
-        pares.push(array[i]);
+        pares.push(arrayNum[i]);
     }
 }
 
